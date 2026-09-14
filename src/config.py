@@ -14,7 +14,7 @@ CATALOGUE_PAGE_COUNT = 3  # first 3 pages only = 60 books, by design (Stage 2)
 
 # --- Politeness ---------------------------------------------------------------
 # TODO: before you run this for real, put your own repo link / contact here.
-USER_AGENT = "FlyRankInternshipBE05/1.0 (+https://github.com/YOUR-USERNAME/flyrank-internship-be05)"
+USER_AGENT = "FlyRankInternshipBE05/1.0 (+https://github.com/MusaIslamFahad/polite-scraper)"
 TIMEOUT_SECONDS = 8            # a request must give up, never hang forever
 REQUEST_DELAY_SECONDS = 0.6    # minimum gap between two *real* network requests
 MAX_RETRIES = 3                # exponential backoff + jitter, see src/retry.py
